@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) /* wider version */
+{
+    ul
+    {
+        list-style-type: none;
+        justify-content: right;
+        margin: 0px;
+        padding: 0px;
+    }
+    li
+    {
+        float: right;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) /* mobile version */
+{
+    ul
+    {
+        flex-direction: column;
+    }
+    li
+    {
+        display: flex;
+        width: auto;
+        font-size: 15px;
+        padding: 15px;
+        justify-content: center;
+    }
+}
+
+ul
+{
+    background-color: black;
+    width:auto;
+    color:rgb(187, 187, 187);
+    display:flex;
+}
